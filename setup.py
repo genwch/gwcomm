@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="gwcomm-genwch", # Replace with your own username
-    version="0.0.2",
+    name="gwcomm-genwch",  # Replace with your own username
+    version="0.0.1",
     author="genwch",
     author_email="",
     description="Common functions package",
