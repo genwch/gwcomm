@@ -30,4 +30,4 @@ jobs:
           TWINE_REPOSITORY: ${{ secrets.PYPI_REPO }}
         run: |
           python setup.py sdist bdist_wheel
-          twine upload dist/*
+          twine upload --repository-url ${TWINE_REPOSITORY} dist/*
