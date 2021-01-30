@@ -5,7 +5,7 @@ name: Upload Python Package (testpypi)
 
 on:
   release:
-    type: [created]
+    types: [created]
 
 jobs:
   deploy:
